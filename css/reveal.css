@@ -39,6 +39,14 @@ html, body, .reveal div, .reveal span, .reveal applet, .reveal object, .reveal i
 	display: block;
 }
 
+/*********************************************
+ * IMAGES
+ *********************************************/
+.reveal section img.brut {
+  background: node;
+  border: 0 node #eeeeee;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+ }
 
 /*********************************************
  * GLOBAL STYLES
