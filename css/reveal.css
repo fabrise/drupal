@@ -49,6 +49,20 @@ html, body, .reveal div, .reveal span, .reveal applet, .reveal object, .reveal i
  }
 
 /*********************************************
+ * CUSTOM
+ *********************************************/
+.right {
+    text-align: right;
+    width: 100%;
+}
+.justify {
+    text-align: justify;
+}
+.center {
+    text-align: center;
+}
+
+/*********************************************
  * GLOBAL STYLES
  *********************************************/
 
