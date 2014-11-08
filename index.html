@@ -49,7 +49,7 @@
 				</section>
 
 				<section>
-					<h2>Qu'est ce que Drupal ?</h2>
+					<h2>Qu'est-ce que Drupal ?</h2>
 					<p class="fragment">
                         Drupal est un système de gestion de contenu (CMS), qui se double d'une plateforme de développement (CMF)
                     </p>
@@ -110,13 +110,13 @@
                 </section>
 
                 <section data-background="images/nasa_decollage_fusee.jpg" data-background-transition="slide">
-                    <h2>Positionnement de Drupal</h2>
+                    <h2 style="color:#fff;">Positionnement de Drupal</h2>
                     <p>
                         Quelques éléments
                     </p>
                 </section>
 
-                <section data-background="images/nasa_decollage_fusee.jpg">
+                <section>
                     <h2>Part de marché sur Internet</h2>
                     <img src="images/market_share_cms_universe.png" alt="part de marché Internet">
                     <small class="right">Source : <a href="http://www.datanyze.com/market-share/cms/drupal-market-share" target="_blank">datanyse.com</a></small>
@@ -141,7 +141,7 @@
                     </section>
 
                     <section>
-                        <h2><a>Drupal</a> est désormais un concurrent direct des solutions CMS propriétaires de
+                        <h2><a>Drupal</a> est désormais un concurrent direct des CMS propriétaires de
                             <a>Adobe</a>, <a>SiteCore</a>, <a>HP</a>, <a>Oracle</a> et <a>IBM</a></h2>
                     </section>
                 </section>
@@ -290,6 +290,84 @@
                         <li class="fragment">Pour bénéficier d'une solution maintenue et portée par une communauté très active et non pas par une unique société ou quelques développeurs</li>
                     </ul>
                 </section>
+
+                <section data-background-image="images/balles.jpg" data-background-transition="slide">
+                    <h2>L'industrialisation de sites <br />avec Drupal</h2>
+                    <p>Plusieurs solutions, non exclusive les unes des autres</p>
+                </section>
+
+                <section>
+                    <h2>Pourquoi une usine à site ?</h2>
+                    <ul>
+                        <li class="fragment">Le temps - mise en production d'un site dans un délai court</li>
+                        <li class="fragment">Réduction du coût de fabrication</li>
+                        <li class="fragment">Réduction du coût de maintenance</li>
+                        <li class="fragment">Respect d'un catalogue de fonctionnalités et de mises en pages communes</li>
+                        <li class="fragment">Recyclage d'un site existant</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <section>
+                        <h2>Les architectures potentielles</h2>
+                        <ul>
+                            <li class="fragment">Sites 100% indépendants (code et bdd différents)</li>
+                            <li class="fragment">Sites 50% indépendants (même code, bdd différentes)</li>
+                            <li class="fragment">Sites 0% indépendants (même code et bdd)</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2>Sites 100% indépendants : les profils</h2>
+                        <ul>
+                            <li class="fragment">Utilisation de profils d'installation</li>
+                            <li class="fragment">ou d'une distribution sur mesure</li>
+                            <li class="fragment">Les sites sont installés préconfigurés et sont tout de suite opérationnels</li>
+                            <li class="fragment">Mais ils restent indépendants et nécessitent chacun une maintenance spécifique</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2>Sites 50% indépendants : multi-site</h2>
+                        <ul>
+                            <li class="fragment">Installation d'un drupal multi-site</li>
+                            <li class="fragment">Les sites partagent le même code Drupal</li>
+                            <li class="fragment">Les sites disposent d'un  même socle commun de fonctionnalités</li>
+                            <li class="fragment">Les sites peuvent être configurés de façon différente</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2>Une installation multi-site</h2>
+                        <img src="images/multisite.png" alt="Schéma d'une architecture multi-site">
+                    </section>
+
+                    <section>
+                        <h2>Sites 0% indépendants : Un seul site pour n sites</h2>
+                        <ul>
+                            <li class="fragment">Utilisation de Domain Access ou Organics Group</li>
+                            <li class="fragment">Simule la création de N sites depuis la même instance de Drupal</li>
+                            <li class="fragment">Une seule base de données pour tous les sites</li>
+                            <li class="fragment">Les contenus et utilisateurs peuvent donc être partagés</li>
+                            <li class="fragment">Impose une configuration relativement similaire pour les N sites</li>
+                            <li class="fragment">Une maintenance facilitée</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2>Architecture Domain Access</h2>
+                        <img src="images/domainaccess.png" alt="Schéma d'une architecture domain access">
+                        <small>Les sites sont accessibles depuis un sous-domaine </small>
+                    </section>
+
+                    <section>
+                        <h2>Architecture Organic Group</h2>
+                        <img src="images/organicgroups.png" alt="Schéma d'une architecture organic group">
+                        <small>Les sites sont accessibles depuis un espace du site principal </small>
+                    </section>
+
+                </section>
+
 
 
 				<section data-transition="linear" data-background="#4d7e65" data-background-transition="slide">
